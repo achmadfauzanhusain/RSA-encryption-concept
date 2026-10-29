@@ -10,9 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/achmadfauzanhusain/RSA-encryption-concept.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cipher",
+    "rsa",
+    "concept",
+    "encryption",
+    "cryptography"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/achmadfauzanhusain/RSA-encryption-concept/issues"

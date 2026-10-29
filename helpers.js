@@ -6,4 +6,10 @@ function textToNumber(text) {
         .filter(n => n >= 1 && n <= 26);
 }
 
-module.exports = { textToNumber }
+function numberToText(numbers) {
+    return numbers
+        .map(n => String.fromCharCode(Number(n) + 64))
+        .join("")
+}
+
+module.exports = { textToNumber, numberToText }

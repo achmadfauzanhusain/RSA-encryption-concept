@@ -1,4 +1,4 @@
-const { textToNumber } = require("./helpers")
+const { textToNumber, numberToText } = require("./helpers")
 
 function generateKey(p, q) {
     const n = p * q
@@ -40,7 +40,7 @@ function encrypt(message, e, n) {
 
 function decrypt(cipher, d, n) {
     // message = cipher^d mod n
-    return cipher.map((c) => {
+    const numbers = cipher.map((c) => {
         let message = 1n
 
         for (let i = 0n; i < BigInt(d); i++) {
@@ -49,6 +49,8 @@ function decrypt(cipher, d, n) {
 
         return message
     })
+
+    return numberToText(numbers)
 }
 
 module.exports = { generateKey, encrypt, decrypt }
