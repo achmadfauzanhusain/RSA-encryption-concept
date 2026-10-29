@@ -2,9 +2,7 @@
 
 learning math & concept behind RSA encryption
 
-learning math & concept behind asymetric cryptography
-
-
+--fauzanhusain--
 
 ## Installation
 
