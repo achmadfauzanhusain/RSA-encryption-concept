@@ -1,15 +1,12 @@
-# Your Name
+# rsa-encryptionn-concept
 
-# rsa-simple
-
-A simple RSA encryption and decryption library for Node.js. It generates a public/private key pair from two prime numbers, then encrypts and decrypts text messages.
-
-> **Note:** This package is intended for learning and demonstration purposes. Do not use it to protect real sensitive data.
+learning math & concept behind RSA encryption
+- built by fauzanhusain
 
 ## Installation
 
 ```bash
-npm install your-package-name
+npm install rsa-encryption-concept
 ```
 
 ## Usage
