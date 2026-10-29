@@ -1,7 +1,7 @@
 # rsa-encryptionn-concept
 
 learning math & concept behind RSA encryption
-- built by fauzanhusain
+-fauzanhusain
 
 ## Installation
 
