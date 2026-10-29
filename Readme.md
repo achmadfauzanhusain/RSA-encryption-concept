@@ -1,7 +1,10 @@
 # rsa-encryptionn-concept
 
 learning math & concept behind RSA encryption
--fauzanhusain
+
+learning math & concept behind asymetric cryptography
+
+
 
 ## Installation
 
